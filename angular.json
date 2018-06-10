@@ -118,5 +118,13 @@
       }
     }
   },
-  "defaultProject": "InstaStats"
+  "defaultProject": "InstaStats",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  },
+  "cli": {
+    "packageManager": "yarn"
+  }
 }
